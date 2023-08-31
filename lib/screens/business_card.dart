@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:business_card/widgets/InfoCard.dart';
+import 'package:business_card/widgets/info_card.dart';
 import 'package:business_card/widgets/avatar.dart';
 import 'package:business_card/widgets/congrats.dart';
 

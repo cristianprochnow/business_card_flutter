@@ -10,7 +10,7 @@ class InfoCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       margin: const EdgeInsets.symmetric(
-        horizontal: 16,
+        horizontal: 24,
         vertical: 8,
       ),
       child: ListTile(
