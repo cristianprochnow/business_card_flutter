@@ -33,3 +33,20 @@ Com isso, podemos aplicar margens `synmetric`, `fromLTRB`, `all` and more.
 ### `MainAxisAlignment`
 
 É o elemento que determina o alinhamento dos elementos que estão dentro de uma  `Column`, é meio como se fosse o `justify-content` quando o `flex-direction` é `column`;
+
+## Assets
+
+Para definir as fontes que serão usadas no aplicativo, basta baixar os arquivos `.ttf` necessários (assim como estão na pasta `assets/fonts/`) e então mudar o `pubscpec.yaml`, para colocar o caminho raiz a buscar as fontes.
+
+```yaml
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+    - family: Source Sans 3
+      fonts:
+        - asset: assets/fonts/SourceSans3-Regular.ttf
+```
